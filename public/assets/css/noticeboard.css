@@ -1,0 +1,111 @@
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+body
+{
+	margin-top:-9px;
+	overflow:hidden;
+	height:100%;
+	width:100%;
+}
+
+header, footer
+{
+	position:fixed;
+	display:block;
+	z-index:9;
+}
+
+#h_top_split
+{
+	height:57px;
+	padding-top:15px;
+}
+
+#h_bottom_split
+{
+	height:36px;
+}
+
+#logo{
+	/*display: block;*/
+	/*background-image: url(../img/nb_logo.png);*/
+	width: 364px;
+	height: 72px;
+	position: relative;
+	margin-left:18px;
+	/*top: 15px;*/
+	background-repeat:no-repeat;
+}
+header{
+	background-image: url(../img/nb_header.png);
+	height: 92px;
+	width: 100%;
+	top: 0px;
+}
+
+#content{
+	height:752px;
+	position:relative;
+	/*text-align:center;*/
+	margin-top:25px;
+	background: -webkit-linear-gradient(white, white, #bcc6bf); /* For Safari */
+	background: -o-linear-gradient(white, white, #bcc6bf); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, white, #bcc6bf); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, white, #bcc6bf); /* Standard syntax */
+}
+
+footer
+{
+	width:100%;
+	height:43px;
+	background-color:white;
+	text-align:center;
+	vertical-align:middle;
+	bottom:0px;
+}
+
+.post
+{
+	width:277px;
+	height:150px;
+	/*width:100%;
+	height:100%;*/
+	/*background-color:pink;*/
+	/*margin-top:auto;*/
+	/*display:inline-block;*/
+	margin:5px;
+	text-align:left;
+	outline: 2px solid orange;
+}
+
+.post_row{
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login
+{
+	color:#FFFFFF;
+}
+
+.login_btns
+{
+	float:right;
+}
+
+a{
+	color: #883ced;
+}
+
+a:hover{
+	color: #af4cf0;
+}
+/*.btn.btn-primary{color:#ffffff!important;background-color:#883ced;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#fd6ef7), to(#883ced));background-image:-moz-linear-gradient(top, #fd6ef7, #883ced);background-image:-ms-linear-gradient(top, #fd6ef7, #883ced);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #fd6ef7), color-stop(100%, #883ced));background-image:-webkit-linear-gradient(top, #fd6ef7, #883ced);background-image:-o-linear-gradient(top, #fd6ef7, #883ced);background-image:linear-gradient(top, #fd6ef7, #883ced);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd6ef7', endColorstr='#883ced', GradientType=0);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);border-color:#883ced #883ced #003f81;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+body { margin: 0px 0px 40px 0px; }*/

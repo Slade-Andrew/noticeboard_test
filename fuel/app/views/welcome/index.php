@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>FuelPHP Framework</title>
 	<?php echo Asset::css('bootstrap.css'); ?>
+    <?php echo Asset::css('noticeboard.css'); ?>
 	<style>
 		#logo{
 			display: block;
